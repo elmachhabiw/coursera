@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #2c3e50;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar .navbar-brand {
+    color: #ecf0f1 !important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #ecf0f1 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    color: #3498db !important;
+}
+
+.navbar-toggle {
+    background-color: #ecf0f1;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #2c3e50;
+}
+
+/* Menu Section */
+.menu-container {
+    margin-top: 60px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    color: #7f8c8d;
+    padding: 8px 0;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Container Padding */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav > li > a {
+        font-size: 18px;
+    }
+
+    .menu-container .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Button Styles */
+.btn-custom {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+.btn-custom:active {
+    transform: translateY(2px);
+}
+
+/* Shadow Effects */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
